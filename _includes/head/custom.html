@@ -42,5 +42,13 @@
   }
   /* Hide footer (Follow / Feed / copyright) */
   .page__footer { display: none !important; }
+   /* Sidebar: full opacity, no GPU transform (fixes faded / soft photo) */
+  .sidebar,
+  .sidebar.sticky {
+    opacity: 1 !important;
+    transform: none !important;
+    -webkit-transform: none !important;
+    backface-visibility: visible !important;
+  }
 </style>
 <!-- end custom head snippets -->
