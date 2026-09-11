@@ -19,12 +19,19 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="var(--global-bg-color)"/>
 <style>
-  /* Wider left column on desktop so the photo can be portrait-sized */
+    /* Wider left column on desktop so the photo can be portrait-sized */
   @media (min-width: 64em) {
-    .sidebar { width: 340px !important; }
-    .page { width: calc(100% - 360px) !important; padding-right: 0 !important; }
+    #main .sidebar,
+    #main .sidebar.sticky {
+      width: 360px !important;
+      max-width: 360px !important;
+    }
+    #main .page {
+      width: calc(100% - 380px) !important;
+      padding-left: 1.5em !important;
+      padding-right: 0 !important;
+    }
   }
-
   /* Portrait photo, 3:4 ratio, square corners, no ring */
   .author__avatar {
     width: 100% !important;
