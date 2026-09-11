@@ -90,5 +90,21 @@
   /* Hide the "Follow" button that appears on small screens */
   .author__urls-wrapper button,
   .author__urls-wrapper .btn { display: none !important; }
+
+   /* Pages without the photo sidebar: center the content */
+  @media (min-width: 64em) {
+    #main:not(:has(.sidebar)) .page {
+      float: none !important;
+      width: 100% !important;
+      max-width: 860px !important;
+      margin: 0 auto !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+    #main:not(:has(.sidebar)) .page__inner-wrap {
+      float: none !important;
+      width: 100% !important;
+    }
+  }
 </style>
 <!-- end custom head snippets -->
