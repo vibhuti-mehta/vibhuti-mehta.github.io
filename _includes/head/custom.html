@@ -58,5 +58,37 @@
     -webkit-transform: none !important;
     backface-visibility: visible !important;
   }
+
+   /* --- Top bar: name far left, tabs far right --- */
+  .masthead__inner-wrap {
+    max-width: 100% !important;
+    padding-left: 1.5em !important;
+    padding-right: 1.5em !important;
+  }
+  .greedy-nav {
+    display: flex !important;
+    width: 100% !important;
+  }
+  .greedy-nav .visible-links {
+    display: flex !important;
+    flex: 1 1 auto !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+  .greedy-nav .visible-links li.masthead__menu-item--lg {
+    margin-right: auto !important;
+  }
+  .greedy-nav .visible-links li.masthead__menu-item--lg a {
+    white-space: nowrap !important;
+  }
+  .greedy-nav .visible-links li.masthead__menu-item--lg a:before {
+    display: none !important;
+  }
+  .greedy-nav button { display: none !important; }
+
+  /* Hide the "Follow" button that appears on small screens */
+  .author__urls-wrapper button,
+  .author__urls-wrapper .btn { display: none !important; }
 </style>
 <!-- end custom head snippets -->
