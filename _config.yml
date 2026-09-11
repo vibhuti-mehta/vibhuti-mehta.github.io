@@ -26,11 +26,11 @@ author:
   avatar           : "profile.png"
   name             : # empty
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : # 
   location         : # URL
-  employer         : "Arizona State University"
+  employer         : # 
   uri              : # URL
-  email            : "vmehta17@asu.edu" 
+  email            : # 
 
   # Academic websites
   academia         : # URL
