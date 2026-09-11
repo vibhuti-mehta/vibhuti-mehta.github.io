@@ -19,9 +19,26 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="var(--global-bg-color)"/>
 <style>
+  /* Wider left column on desktop so the photo can be portrait-sized */
+  @media (min-width: 64em) {
+    .sidebar { width: 340px !important; }
+    .page { width: calc(100% - 360px) !important; padding-right: 0 !important; }
+  }
+
+  /* Portrait photo, 3:4 ratio, square corners, no ring */
+  .author__avatar {
+    width: 100% !important;
+    max-width: 320px !important;
+  }
   .author__avatar img {
-    border-radius: 4px !important;
+    width: 100% !important;
+    max-width: 320px !important;
+    height: auto !important;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    border-radius: 0 !important;
     box-shadow: none !important;
+    border: none !important;
   }
 </style>
 <!-- end custom head snippets -->
