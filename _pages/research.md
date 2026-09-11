@@ -5,13 +5,11 @@ permalink: /research/
 author_profile: false
 ---
 
-## Job Market Paper
+## Working Papers
 
-**Licensing Barriers to Interstate Mobility: Evidence from Travel Nurses**
+**Licensing Barriers to Interstate Mobility: Evidence from Travel Nurses (Job Market Paper)** 
 
 This paper examines the impact of licensing barriers to interstate mobility on nursing labor markets and health outcomes during the COVID-19 pandemic. Using county-level CDC data, I exploit spatial variation from the Nurse Licensure Compact (NLC) and temporal variation from federal emergency waivers to identify the causal effects of licensing barriers on COVID-19 mortality. Through a Boundary Discontinuity Design, I establish that Non-NLC states reported 7% higher deaths per capita in 2020, despite emergency measures already in place. To establish the mechanism, I use granular data on US travel nurses and their individual licenses. I estimate a structural model of nurse applications that separates the direct disutility of licensing barriers from hospitals' wage responses. The results reveal that a lack of licensure reduces application probability by 70%, despite the presence of a compensating wage premium and emergency measures. Counterfactual estimates reveal that Non-NLC states suffered the highest loss in applications due to licensing barriers. Together, the findings highlight that interstate licensing barriers constrained the rapid reallocation of critical healthcare labor during the pandemic and that uniform licensing policies like the NLC can enhance labor market responsiveness and improve public health resilience in times of crisis.
-
-## Working Papers
 
 **Accountability and Access: The Impact of School Quality Grades on Student Transfers and Voucher Uptake**  
 *with Esteban Aucejo and Alex Toy*
