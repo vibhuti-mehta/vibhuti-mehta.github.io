@@ -19,29 +19,35 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="var(--global-bg-color)"/>
 <style>
-    /* Wider left column on desktop so the photo can be portrait-sized */
-  @media (min-width: 64em) {
+    /* --- Home page: photo ~35% / text ~62%, like the reference site --- */
+  @media (min-width: 48em) {
+    #main:has(.sidebar) { max-width: 1100px !important; }
     #main .sidebar,
     #main .sidebar.sticky {
-      width: 360px !important;
-      max-width: 360px !important;
-    }
-    #main .page {
-      width: calc(100% - 380px) !important;
-      padding-left: 1.5em !important;
+      width: 35% !important;
+      max-width: 35% !important;
+      float: left !important;
       padding-right: 0 !important;
     }
+    #main:has(.sidebar) .page {
+      float: right !important;
+      width: 62% !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+    #main:has(.sidebar) .page__inner-wrap {
+      width: 100% !important;
+      float: none !important;
+    }
   }
-  /* Portrait photo, 3:4 ratio, square corners, no ring */
-  .author__avatar {
-    width: 100% !important;
-    max-width: 320px !important;
-  }
+  .author__avatar,
   .author__avatar img {
     width: 100% !important;
-    max-width: 320px !important;
+    max-width: 100% !important;
+  }
+  .author__avatar img {
     height: auto !important;
-    aspect-ratio: 3 / 4;
+    aspect-ratio: 2 / 3;
     object-fit: cover;
     border-radius: 0 !important;
     box-shadow: none !important;
