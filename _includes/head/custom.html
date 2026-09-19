@@ -101,6 +101,22 @@
   .author__urls-wrapper button,
   .author__urls-wrapper .btn { display: none !important; }
 
+  /* CV page: native PDF embed on desktop, rendered pages on phones */
+  .cv-mobile canvas {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 0 12px 0;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  @media (max-width: 768px) {
+    .cv-embed { display: none !important; }
+  }
+  @media (min-width: 769px) {
+    .cv-mobile { display: none !important; }
+  }
+
    /* Pages without the photo sidebar: center the content */
   @media (min-width: 64em) {
     #main:not(:has(.sidebar)) .page {
