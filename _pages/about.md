@@ -9,7 +9,7 @@ redirect_from:
 
 <h2 style="margin-top: 0;">Vibhuti Mehta</h2>
 
-I am a PhD Candidate in Economics at Arizona State University. I will be on the 2026–2027 job market.
+I am a PhD Candidate in Economics at Arizona State University. I am on the 2026–2027 job market.
 
 My research interests are in Labor Economics, Health Economics, and Education Economics.
 
